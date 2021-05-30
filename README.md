@@ -1,4 +1,4 @@
-# Cluster Editing Pace 2021
+# CELMEC: Cluster Editing Pace 2021
 
 This repository contains a simple heuristic solution to the cluster editing problem. 
 The program is submitted to the [PACE Challenge 2021](https://pacechallenge.org/2021/).
@@ -44,3 +44,4 @@ Deleting or inserting edges has the double cost.
 By increasing insertion costs, we can break up large clusters that should be split.
 Similarly, an increased deletion cost allows us to join clusters that should be merged.
 
+We name this simple algorithm CELMEC for Cluster Editing using Local Moving and varying Edit Costs.
